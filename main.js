@@ -96,9 +96,26 @@
 
 //4
 //sonlarning qiymatini hisoblash
-// let arr = [10, 5, 3, 2];
-// let newArr = 0;
-// for (let i = 0; i < arr.length; i++) {
-//   newArr += arr[i];
+// function x(arr) {
+//   let newArr = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     newArr += arr[i];
+//   }
+//   return newArr;
 // }
-// console.log(newArr);
+// let arr = [10, 5, 3, 2];
+// console.log(x(arr));
+
+//5
+// function value(obj) {
+//   return Object.values(obj)
+// }
+
+// function keys(obj) {
+//   return Object.keys(obj)
+// }
+
+// let obj = { name: 'Muhammadali', age: 20, id: 3 }
+
+// console.log(value(obj));
+// console.log(keys(obj));
