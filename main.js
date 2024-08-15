@@ -95,7 +95,7 @@
 // console.log("toq",toq);
 
 //4
-//sonlarning qiymatini hisoblash
+// sonlarning qiymatini hisoblash
 // function x(arr) {
 //   let newArr = 0;
 //   for (let i = 0; i < arr.length; i++) {
@@ -107,15 +107,16 @@
 // console.log(x(arr));
 
 //5
-// function value(obj) {
-//   return Object.values(obj)
+//key va valueni 2 ta arrayga ajratish
+// function x(obj) {
+//   return Object.values(obj);
 // }
 
 // function keys(obj) {
-//   return Object.keys(obj)
+//   return Object.keys(obj);
 // }
 
-// let obj = { name: 'Muhammadali', age: 20, id: 3 }
+// let obj = { name: "Darden", age: 20, id: 3 };
 
-// console.log(value(obj));
+// console.log(x(obj));
 // console.log(keys(obj));
